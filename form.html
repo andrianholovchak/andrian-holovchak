@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/link.jpeg">
+    <title>Form for order</title>
+</head>
+<body>
+   <header>
+     <h1>Form for order</h1>
+     <hr>
+     <h2>Complete the following to place an order</h2>
+     <nav>
+         <a href="index.html">Main Page</a>
+     </nav>
+        <hr>
+   </header>
+
+   <main>
+     <form action="https://formspree.io/xyyngklb" method="post" target="_self">
+         <label>
+         Your name:
+         <input type="text" name="guest-name" placeholder="Name" required>
+         </label>
+
+         <label>
+         Your surname:
+         <input type="text" name="guest-surname" placeholder="Surname" required>
+         </label>
+         
+         <label>
+         Your email:
+         <input type="email" name="guest-email" placeholder="email" required>
+         </label>
+
+         <label for="number">
+         Phone number:
+         <input id="number" type="tel" placeholder="+380-000-00-000" name="guest-phone" required>
+         </label>
+
+         <label for="age">
+         Your Age:
+         <input id="age" type="date" name="guest-age" min="01-01-1900" max="01-01-1999" required>
+         <span class="validity"></span>
+         </label>
+              
+         <br>
+             <label>Gender:</label>
+                <label>
+                    <input type="radio" name="Gender" value="Male">Male
+                </label>
+
+                <label>
+                    <input type="radio" name="Gender" value="Female">Female
+                </label>
+                <label>
+         </br>
+         <hr>
+
+         <h3>Also you can choose your gift box</h3>
+          <p>Box color:
+          <label>
+             <input type="color">
+          </label>
+          </p>
+          
+         <p>
+            You can choose size of your box
+            <select name="GiftBox">
+                <option>Small</option>
+                <option>Regular</option>
+                <option>Big</option>
+                
+             </select></p>
+         <label>
+            You can add some comment
+            <br><textarea name="usertext"  cols="30" rows="5" placeholder="comment">
+            </textarea>
+         </label>
+             <br>
+                <input type="submit">
+                <input type="reset">
+    </form>
+    <hr>
+   
+   </main>
+
+    <footer>
+     <div> 
+          <h3>Follow us</h3>
+ 
+     <a href="https://www.facebook.com/">
+         <img src="icons/facebook.png" width="30" alt="facebooklink"></a>
+     
+     <a href="https://www.instagram.com/">
+         <img src="icons/instagram.png" width="30" alt="instagramlink"></a>
+     
+     <a href="https://twitter.com/">
+         <img src="icons/twwiter.png" width="30" alt="twwiterlink"></a>    
+         
+ </div>
+ <h4><ins>Our Contacts:</ins></h4>
+ <p>whiskeyworld@gmail.com</p>
+ <p>+38014881488</p>
+
+   
+</footer>
+    
+</body>
+</html>
